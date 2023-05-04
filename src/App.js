@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
     <div class="container" >
-    <a class="links" id="paracadastro"></a>
-    <a class="links" id="paralogin"></a>
+    <a class="links" id="paracadastro" href="#paracadastro"></a>
+    <a class="links" id="paralogin" href="#paralogin"></a>
     
     <div class="content">      
       <div id="login">
