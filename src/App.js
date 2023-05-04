@@ -7,7 +7,7 @@ function App() {
     <a class="links" id="paracadastro"></a>
     <a class="links" id="paralogin"></a>
     
-    <div class="content">      
+    <div className="content">      
       <div id="login">
         <form method="post" action=""> 
           <h1>Login</h1> 
