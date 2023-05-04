@@ -4,8 +4,8 @@ import './App.css';
 function App() {
   return (
     <div className="container" >
-    <a class="links" id="paracadastro"></a>
-    <a class="links" id="paralogin"></a>
+    <a className="links" id="paracadastro"></a>
+    <a className="links" id="paralogin"></a>
     
     <div className="content">      
       <div id="login">
@@ -13,7 +13,7 @@ function App() {
           <h1>Login</h1> 
           <p> 
             <label for="email_login">Seu e-mail</label>
-            <input id="email_login" name="email_login" required="required" type="text" placeholder="contato@htmlecsspro.com"/>
+            <input id="email_login" name="email_login" required="required" type="text" placeholder="dev@ops.com"/>
           </p>
           
           <p> 
@@ -30,7 +30,7 @@ function App() {
             <input type="submit" value="Logar" /> 
           </p>
           
-          <p class="link">
+          <p className="link">
             Ainda não tem conta?
             <a href="#paracadastro">Cadastre-se</a>
           </p>
@@ -43,12 +43,12 @@ function App() {
           
           <p> 
             <label for="nome_cad">Seu nome</label>
-            <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="Luiz Augusto" />
+            <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="Luiz Kelvin" />
           </p>
           
           <p> 
             <label for="email_cad">Seu e-mail</label>
-            <input id="email_cad" name="email_cad" required="required" type="email" placeholder="contato@htmlecsspro.com"/> 
+            <input id="email_cad" name="email_cad" required="required" type="email" placeholder="dev@ops.com"/> 
           </p>
           
           <p> 
@@ -60,7 +60,7 @@ function App() {
             <input type="submit" value="Cadastrar"/> 
           </p>
           
-          <p class="link">  
+          <p className="link">  
             Já tem conta?
             <a href="#paralogin"> Ir para Login </a>
           </p>
