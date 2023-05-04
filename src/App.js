@@ -4,8 +4,8 @@ import './App.css';
 function App() {
   return (
     <div className="container" >
-    <a className="links" id="paracadastro"></a>
-    <a className="links" id="paralogin"></a>
+    <a class="links" id="paracadastro" href="#paracadastro"></a>
+    <a class="links" id="paralogin" href="#paralogin"></a>
     
     <div className="content">      
       <div id="login">
