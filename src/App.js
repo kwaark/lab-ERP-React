@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <div class="container" >
+    <div className="container" >
     <a class="links" id="paracadastro"></a>
     <a class="links" id="paralogin"></a>
     
