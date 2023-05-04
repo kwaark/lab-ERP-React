@@ -23,7 +23,7 @@ function App() {
           
           <p> 
             <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
-            <label for="manterlogado">Manter-me logado</label>
+            <label htmlFor="manterlogado">Manter-me logado</label>
           </p>
           
           <p> 
