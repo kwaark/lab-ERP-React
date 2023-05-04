@@ -4,7 +4,7 @@ import App from './App';
 describe('App', () => {
   it('should render login section by default', () => {
     render(<App />);
-    const loginSection = screen.getAllByText(/Login/i);
+    const loginSection = screen.getAllByText(/^Login/i);
     expect(loginSection).toHaveLength(1);
   });
 
