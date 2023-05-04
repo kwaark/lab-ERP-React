@@ -12,12 +12,12 @@ function App() {
         <form method="post" action=""> 
           <h1>Login</h1> 
           <p> 
-            <label for="email_login">Seu e-mail</label>
+            <label htmlFor="email_login">Seu e-mail</label>
             <input id="email_login" name="email_login" required="required" type="text" placeholder="dev@ops.com"/>
           </p>
           
           <p> 
-            <label for="senha_login">Sua senha</label>
+            <label htmlFor="senha_login">Sua senha</label>
             <input id="senha_login" name="senha_login" required="required" type="password" placeholder="1234" /> 
           </p>
           
@@ -42,17 +42,17 @@ function App() {
           <h1>Cadastro</h1> 
           
           <p> 
-            <label for="nome_cad">Seu nome</label>
+            <label htmlFor="nome_cad">Seu nome</label>
             <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="Luiz Kelvin" />
           </p>
           
           <p> 
-            <label for="email_cad">Seu e-mail</label>
+            <label htmlFor="email_cad">Seu e-mail</label>
             <input id="email_cad" name="email_cad" required="required" type="email" placeholder="dev@ops.com"/> 
           </p>
           
           <p> 
-            <label for="senha_cad">Sua senha</label>
+            <label htmlFor="senha_cad">Sua senha</label>
             <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="1234"/>
           </p>
           
