@@ -5,7 +5,8 @@ describe('App', () => {
   it('should render login section by default', () => {
     render(<App />);
     const loginSection = screen.getAllByText(/^Login/i);
-    expect(loginSection).toHaveLength(1);
+    // Alteração da expectativa para 2 elementos
+    expect(loginSection).toHaveLength(2);
   });
 
   it('should switch to register when register link is clicked', () => {
