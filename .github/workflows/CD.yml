@@ -52,7 +52,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           
       - name: Build the application
-        run: nom run build
+        run: npm run build
       
       - name: Deploy the application
         run:
