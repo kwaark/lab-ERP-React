@@ -17,7 +17,7 @@ function App() {
 
             <p>
               <label htmlFor="senha_login">Sua senha</label>
-              <input id="senha_login" name="senha_login" required="required" type="password" placeholder="1234"/>
+              <input id="senha_login" name="senha_login" required="required" type="password" placeholder="123abcd"/>
             </p>
 
             <p>
@@ -52,7 +52,7 @@ function App() {
 
             <p>
               <label htmlFor="senha_cad">Sua senha</label>
-              <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="1234"/>
+              <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="123abcd"/>
             </p>
 
             <p>
