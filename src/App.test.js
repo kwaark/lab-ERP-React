@@ -1,8 +1,19 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+describe('App', () => {
+  test('renders login section by default', () => {
+    render(<App />);
+    const loginSection = screen.getByText(/login/i);
+    expect(loginSection).toBeInTheDocument();
+  });
+
+  test('shows registration form when link is clicked', () => {
+    render(<App />);
+    const signUpLink = screen.getByText(/cadastre-se/i);
+    signUpLink.click();
+
+    const registrationForm = screen.getByText(/cadastro/i);
+    expect(registrationForm).toBeInTheDocument();
+  });
 });
