@@ -2,7 +2,7 @@ name: CD
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "release" ]
 
   workflow_dispatch:
   
@@ -46,7 +46,7 @@ jobs:
           CI: true
           
       - name: SonarCloud Scan
-        uses: SonarSource/sonarcloud-github-action@master
+        uses: SonarSource/sonarcloud-github-action@release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
@@ -56,10 +56,10 @@ jobs:
       
       - name: Deploy the application
         run: |
-          ssh google-cloud 'sudo systemctl stop react-app'
-          ssh google-cloud 'sudo rm -rf /app/react-app'
+          ssh google-cloud 'sudo systemctl stop release-react-app'
+          ssh google-cloud 'sudo rm -rf /app-release/react-app'
           scp -r build google-cloud:/home/github/react-app
-          ssh google-cloud 'sudo mv /home/github/react-app /app/react-app'
-          ssh google-cloud 'sudo systemctl start react-app'
+          ssh google-cloud 'sudo mv /home/github/react-app /app-release/react-app'
+          ssh google-cloud 'sudo systemctl start release-react-app'
           
           
