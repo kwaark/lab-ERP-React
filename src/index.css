@@ -92,7 +92,7 @@ input:not([type="checkbox"]){
 input[type="submit"]{
   width: 100%!important;
   cursor: pointer;  
-  background: #3d9db3;
+  background: #000000;
   padding: 8px 5px;
   color: #fff;
   font-size: 20px;  
@@ -141,7 +141,7 @@ input[type="submit"]:hover{
 }
 .link a:hover {
   color: #255c8e;
-  background: #f7f7f7;
+  background: #2e2e2e;
   border: 1px solid #040201;
 }
 
