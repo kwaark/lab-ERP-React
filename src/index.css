@@ -131,7 +131,7 @@ input[type="submit"]:hover{
   padding: 6px;
   color: rgb(29, 162, 193);
   margin-left: 10px;
-  border: 1px solid #cbd518;
+  border: 1px solid #0d0501;
 
   -webkit-border-radius: 4px;
   border-radius: 4px;  
@@ -140,9 +140,9 @@ input[type="submit"]:hover{
   transition: all 0.4s  linear;
 }
 .link a:hover {
-  color: #39bfd7;
+  color: #255c8e;
   background: #f7f7f7;
-  border: 1px solid #4ab3c6;
+  border: 1px solid #040201;
 }
 
 /* estilos para para ambos os formulários */
@@ -154,7 +154,7 @@ input[type="submit"]:hover{
   padding: 18px 6% 60px 6%;
   margin: 0 0 35px 0;
   background: rgb(247, 247, 247);
-  border: 1px solid rgba(147, 184, 189,0.8);
+  border: 1px solid rgba(0, 0, 0);
   
   -webkit-box-shadow: 5px;
   border-radius: 5px;
