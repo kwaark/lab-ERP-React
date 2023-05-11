@@ -6,7 +6,7 @@
 }
 
 body{
-  background: #000000;
+  background: #2e2e2e;
   margin:10px;
 }
 
@@ -29,7 +29,7 @@ a.links{
 /* formatando o cabeçalho dos formulários */
 h1{
   font-size: 48px;
-  color: #066a75;
+  color: #fffdfd;
   padding: 10px 0;
   font-family: Arial,sans-serif;
   font-weight: bold;
@@ -53,19 +53,19 @@ p:first-child{
   margin: 0px;
 }
 label{
-  color: #405c60;
+  color: #fffdfd;
   position: relative;
 }
 
 /**** advanced input styling ****/
 /* placeholder */
 ::-webkit-input-placeholder  {
-  color: #bebcbc; 
+  color: #d2d0d0; 
   font-style: italic;
 }
 input:-moz-placeholder,
 textarea:-moz-placeholder{
-  color: #bebcbc;
+  color: #d2d0d0;
   font-style: italic;
 } 
 input {
